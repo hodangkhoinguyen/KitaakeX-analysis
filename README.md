@@ -36,6 +36,11 @@ python3 Samtools.py --file <Samtools_input_file>
 ### Pindel
 Produce small deletion and insertion mutant gene tables. The samtools input file is to remove duplicates between Pindel and Samtools files.
 ```
+python3 Pindel.py --file <Pindel_input_file> --database <snpEff_database_name> --samtool <Samtool_input_file>
+```
+
+For example, I used `Nipponbare` as `snpEff database name`. So:
+```
 python3 Pindel.py --file <Pindel_input_file> --database Nipponbare --samtool <Samtool_input_file>
 ```
 
